@@ -1,0 +1,13 @@
+hardstatus alwayslastline "%{=b}%{b}%-w%{.BW}%10>%n*%t%{-}%+w%< %=%{kG}%C%A, %Y-%m-%d"
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+screen -t dev 0 bash
+screen -t server 1 bash
+screen -t mysql bash
+screen -t test 3 bash
+screen -t jobmanager 4 bash
+screen -t solr4 5 bash
+
+select 0
+defencoding UTF-8
+encoding UTF-8 UTF-8
+
