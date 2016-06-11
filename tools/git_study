@@ -1,0 +1,14 @@
+924  git init
+  925  git add README.md 
+  928  git config --global user.email "m18969129618@163.com"
+  929  git config --global user.name "reborn2016"
+  930  git commit -m 'first commit'
+  931  git remote add origin https://github.com/reborn2016/helloworld.git
+  933  git push -u origin master
+  934  git status
+  963  git pull
+  969  git log
+       git checkout test-branches
+       #edit branches
+       git merge master
+
